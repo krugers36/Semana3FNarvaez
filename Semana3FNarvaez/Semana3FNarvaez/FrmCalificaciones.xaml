@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Semana3FNarvaez.FrmCalificaciones">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblUser" ></Label>
+            <Label Text="Sistema de Calificaciones" HorizontalTextAlignment="Center" TextColor="Black"
+         FontSize="25" ></Label>
+
+
+            <Label Text="Nota Segmento 1" HorizontalTextAlignment="Center" TextColor="Black"
+         FontSize="18" ></Label>
+
+            <Entry x:Name="txtdato1" Keyboard="Numeric" Placeholder="Nota Seguimiento "></Entry>
+
+            <Entry x:Name="txtdato2" Keyboard="Numeric" Placeholder="Nota Examen "></Entry>
+
+            <Label Text="Promedio" HorizontalTextAlignment="Center" TextColor="Black"
+         FontSize="8"></Label>
+
+            <Entry x:Name="txtEp1" IsReadOnly="True"></Entry>
+
+            <Label Text="Nota Segmento 2" HorizontalTextAlignment="Center" TextColor="Black"
+         FontSize="18" ></Label>
+
+            <Entry x:Name="txtdato3" Keyboard="Numeric" Placeholder="Nota Seguimiento "></Entry>
+
+            <Entry x:Name="txtdato4" Keyboard="Numeric" Placeholder="Nota Examen "></Entry>
+
+            <Label Text="Promedio" HorizontalTextAlignment="Center" TextColor="Black"
+         FontSize="8"></Label>
+
+            <Entry x:Name="txtEp2" IsReadOnly="True"></Entry>
+
+            <Button x:Name="btnresultado" Text="Resultado" Clicked="btnresultado_Clicked"></Button>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
